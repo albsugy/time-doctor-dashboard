@@ -15,4 +15,5 @@ Task | Description
 - Chart.js
 - JS ES6
 - Bootstrap (responsive)
+- Yarn, but you can use NPM too
 
