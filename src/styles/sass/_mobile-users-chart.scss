@@ -1,0 +1,40 @@
+#Highest_percentage_Mobile_Users{
+  canvas{
+    margin: 0;
+  }
+  .single-mobile-user{
+    display: table;
+    &:not(:last-child){
+      margin-bottom: 9px;
+    }
+    .single-mobile-user--color{
+      display: table-cell;
+      span{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: #ccc;
+        vertical-align: top;
+      }
+    }
+    .user-info{
+      padding-left: 10px;
+      display: table-cell;
+      vertical-align: top;
+      margin-left: 10px;
+      h5{
+        margin: 0;
+        font-size: 12px;
+        font-weight: normal;
+        color: #2B405B;
+      }
+      p{
+        font-size: 15px;
+        font-weight: bold;
+        color: #2B405B;
+      }
+    }
+
+  }
+}

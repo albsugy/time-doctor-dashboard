@@ -1,0 +1,51 @@
+body{
+  background-color: $bg;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-full {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 100px;
+  .page-wrap{
+    padding: 0 15px;
+    .page-header-wrap{
+      padding: 30px 5px 16px 5px;
+      .page-title{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0;
+      }
+      .page--btns{
+        float: right;
+        .btn:not(:last-child){
+          margin-right: 20px;
+        }
+        .btn{
+          transition: all .3s ease-in-out;
+          .glyphicon{
+            margin-right: 12px;
+          }
+        }
+        .btn-default{
+          &:hover{
+            background-color: $btn_primary;
+            border-color: $btn_primary;
+            color: #FFF;
+          }
+        }
+        .btn-primary{
+          background-color: $btn_primary;
+          border-color: $btn_primary;
+          &:hover{
+            opacity: .9;
+          }
+        }
+      }
+    }
+    .page-content{
+      padding: 0 10px;
+    }
+  }
+}

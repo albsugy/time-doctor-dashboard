@@ -1,0 +1,71 @@
+#Top_Apps_Websites{
+
+  .activity-chart-users{
+    .signel-user{
+      margin-top: 5px;
+      margin-bottom: 17px;
+      &:last-child{
+        margin-bottom: 8px;
+      }
+      .user-info{
+        img{
+        }
+        .userAvatar-placeholder{
+          vertical-align: middle;
+          display: inline-block;
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          font-size: 11px;
+          font-weight: 500;
+          text-align: center;
+          color: #fff;
+          margin-left: 5px;
+          padding: 4px 0;
+          background: #ccc;
+          background-position: center;
+          cursor: pointer;
+        }
+        .userAvatar-placeholder.rm{
+          background-color: #F65161;
+        }
+        .userAvatar-placeholder.em{
+          background-color: #5A68C6;
+        }
+        .userAvatar-placeholder.es{
+          background-color: #FCB941;
+        }
+        .userAvatar-placeholder.no{
+          background-color: #36C398;
+        }
+        .userAvatar-placeholder-1{
+
+        }
+        h5{
+          margin: 0;
+          display: inline-block;
+          a{
+            color: #333333;
+          }
+        }
+      }
+      .progress{
+        margin-top: 5px;
+        margin-bottom: 0;
+        height: 10px;
+        border-radius: 5px;
+        box-shadow: none;
+        background-color: #D8DDE6;
+        .progress-bar{
+        	border-radius: 100px;
+        	background-color:#36C398;
+        }
+      }
+      .user-percentage{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+}
